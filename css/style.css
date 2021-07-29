@@ -15,3 +15,16 @@
     width: 552px;
     height: 447px;
 }
+/* featured bike */
+.bike img{ 
+    width: 288px;
+    height: 243px;
+}
+.bike img:nth-child(odd){
+    filter: grayscale(1);
+}
+hr{
+    width: 58px;
+    margin: auto;
+    border: 1px solid #E76F51;
+}
