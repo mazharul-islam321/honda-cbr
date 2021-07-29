@@ -15,7 +15,7 @@
 <body>
     <!-- ...........header part............ -->
     <header class="bg-header text-white py-5">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-header">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="img/honda-fullcolour.29cbd4d.png" alt="honda logo" width="50" height="30">
@@ -32,7 +32,10 @@
                     <a class="nav-link" href="#">shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">news</a>
+                    <a class="nav-link" href="#">Client</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Q&A</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">contact</a>
@@ -221,6 +224,77 @@
                             </div>
                           </div>
                       </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery part -->
+        <section class="container pb-5">
+            <div>
+                <h2 class="text-center py-5" style="font-size: 48px; font-weight: 600;">Honda <span style="color: #E76F51;">Gallery</span></h2>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <img src="img/gallery/honda-1.jpg" class="img-fluid shadow p-3 mb-3 bg-body rounded" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/gallery/honda-2.jpg" class="img-fluid shadow p-3 mb-3 bg-body rounded" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/gallery/honda-3.jpg" class="img-fluid shadow p-3 mb-3 bg-body rounded" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/gallery/honda-4.jpg" class="img-fluid shadow p-3 mb-3 bg-body rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container pb-5">
+            <div>
+                <div class="text-center">
+                    <h2 class="py-4" style="font-size: 48px; font-weight: 600;">FEATURES</h2>
+                    <h2 class="pb--5" style="font-size: 36px; font-weight: 600;">CBR300R <span style="color: #E76F51;">PERFORMANCE</span></h2>
+                    <p class="pb-2" style="font-size: 26px; font-weight: 300;">To see the performance, please click these button</p>
+                </div>
+                <div class=" d-flex justify-content-around pt-5">
+                    <div>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">PERFORMANCE</button>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">SINGLE-CYLINDER ENGINE</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                A single is the perfect choice for a bike like the CBR300R. It's light, simple, fuel efficient and features a broad powerband with plenty of low-revving torque—just what you want in your first motorcycle, but geared for comfortable cruising at highway speeds.
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">COMFORT</button>
+    
+                        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasTopLabel">NARROW SEAT & LOW SEAT HEIGHT</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                A low 30.7-inch seat height does more than help make sure the CBR300R fits a wide range of riders. It makes it easier to put your feet down at stoplights and in parking lots—a big confidence builder.
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">ENGINEERING</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">COUNTERBALANCE SHAFT</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                Because it features a counterbalancer, the CBR300R engine is a smooth runner. You get the narrow overall width and power advantages of a single along with the smoothness of a multi-cylinder bike.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
