@@ -19,6 +19,7 @@
 .bike img{ 
     width: 288px;
     height: 243px;
+    margin: 45px 0;
 }
 .bike img:nth-child(odd){
     filter: grayscale(1);
@@ -27,4 +28,14 @@ hr{
     width: 58px;
     margin: auto;
     border: 1px solid #E76F51;
+}
+.fas{
+    color: #E77C40;
+    width: 18.34px;
+    height: 18.34px;
+}
+.far{
+    color: #E77C40;
+    width: 18.34px;
+    height: 18.34px;
 }
